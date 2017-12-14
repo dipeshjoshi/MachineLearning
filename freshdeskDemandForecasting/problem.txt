@@ -1,0 +1,13 @@
+Demand Forecasting Problem
+1. The attached support_requests.json file contains (simulated) timestamps of support requests for a company. Aggregate the data based on 15­minute time intervals, and visualize and describe the resulting time series of request counts in ways that best characterize the underlying patterns of the demand. 
+
+Please report/illustrate important features of the demand, such as daily cycles. If there are data quality issues, please report them. 
+
+2. Suppose you’re tasked with forecasting the demand for support services. Based on the insights you developed above, describe a method to forecast expected future demand at the same 15 ­minute granularity over the following hour (the 4 following time periods), at any given time. Apply your method to this dataset, and evaluate its predictive accuracy in a reasonable way. Discuss your method and its accuracy.
+
+3. Not only are accurate mean predictions important, but so are appropriate characterizations of the stochastic nature of this demand. If not already done in part 2, describe a method to predict the probability distribution of demand in the following 15­ minute period. Describe how you would evaluate accuracy of these stochastic predictions. You don’t have to apply your method to the dataset.
+
+Along with the final report (in pdf or docx), please attach your source code corresponding to problem statements (1) and (2).  Source code for (3) is optional.
+
+PFA file name DC_2_Dataset_Support_requests.json
+
