@@ -234,7 +234,7 @@ class SinglyLinkedList :
 
 
 if __name__=="__main__":
-    inputList = [8,5,1,4,7,6,2,5,9]
+    inputList = [8,5,1,4,7,4,1,5,8,0]
     s = SinglyLinkedList()
     for item in inputList :
         s.addElement(item)
@@ -254,6 +254,9 @@ if __name__=="__main__":
     #s.findLenght()
     #result = s.findPalindrome()
     #print result
+    a = s.findMiddle()  
+    print(a.data)
+    '''
     s.swapNodes()
     s.printLinkedList()
     inputList2 = [3,1,6,2,9,6,4,7]
@@ -261,3 +264,4 @@ if __name__=="__main__":
     for item in inputList2 :
         t.addElement(item)
     t.printLinkedList()
+    '''
